@@ -1,0 +1,9 @@
+{
+  "actorSpecification": 1,
+  "name": "dat-trendlines-scraper",
+  "title": "DAT Trendlines Freight Scraper",
+  "description": "Scrapes DAT Trendlines for national rates, load-to-truck ratios, state-level data, and fuel prices across Van, Reefer, and Flatbed equipment types.",
+  "version": "1.0",
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile"
+}

@@ -1,0 +1,33 @@
+{
+  "title": "DAT Trendlines Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "equipmentTypes": {
+      "title": "Equipment Types",
+      "type": "array",
+      "description": "Which equipment types to scrape",
+      "default": ["VAN", "REEFER", "FLATBED"],
+      "editor": "stringList"
+    },
+    "datasets": {
+      "title": "Datasets",
+      "type": "array",
+      "description": "Which datasets to pull: national_rates, load_truck_ratio, fuel_price, state_rates",
+      "default": ["national_rates", "load_truck_ratio", "fuel_price"],
+      "editor": "stringList"
+    },
+    "headless": {
+      "title": "Headless",
+      "type": "boolean",
+      "default": true,
+      "description": "Run browser in headless mode"
+    },
+    "maxRetries": {
+      "title": "Max Retries",
+      "type": "integer",
+      "default": 3,
+      "description": "Max retries per page on failure"
+    }
+  }
+}

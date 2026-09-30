@@ -1,0 +1,19 @@
+{
+  "name": "dat-trendlines-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes DAT Trendlines for freight rates, L:T ratios, and fuel prices",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.0",
+    "crawlee": "^3.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
